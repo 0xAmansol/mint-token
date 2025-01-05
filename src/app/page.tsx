@@ -142,7 +142,7 @@ export default function Home() {
                 <Tabs defaultValue="token-balance" className="w-full ">
                   <TabsList className="grid w-full grid-cols-3 lg:w-[400px] ">
                     {["Token Balance", "Transfer", "Create Token"].map(
-                      (tab, i) => (
+                      (tab) => (
                         <motion.div
                           key={tab}
                           whileHover={{ scale: 1.05 }}
